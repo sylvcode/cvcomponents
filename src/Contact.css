@@ -1,0 +1,17 @@
+.mynd {
+  height:150px;
+  background-color:#FFFFFF;
+  margin-top:10px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+
+ h2 {
+   padding-top: 30px;
+   padding-bottom: 10px;
+ }
+
+ .contactlist {
+   list-style: none;
+ }
