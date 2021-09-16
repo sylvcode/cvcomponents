@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md'
 import { AiFillPhone } from 'react-icons/ai'
 import mynd3 from './Mynd3.jpg'
 
-const positions = [
+const contact = [
   {
     email: 'contact@donchev.is',
     github: ['github.com/donchev7'],
@@ -19,7 +19,7 @@ export default function Contact() {
     <div className="contact">
       <div>
         <ul>
-          {positions.map((position) => {
+          {contact.map((position) => {
             return (
               <li className="contactlist">
                 <img src={mynd3} className="mynd" alt="mynd" />

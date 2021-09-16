@@ -25,9 +25,8 @@ export default function Qualifications() {
         <ul>
           {positions.map((position) => {
             return (
-              <li>
+              <li className="contactlist">
                 <h2>CORE QUALIFICATIONS</h2>
-
                 <h6 className="qualification">
                   {' '}
                   <VscCircleOutline /> {position.qualification}
