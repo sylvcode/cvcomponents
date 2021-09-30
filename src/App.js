@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-8">
+          <div className="col-12 col-md-12">
             <Career />
             <Education />
           </div>
